@@ -11,7 +11,7 @@
 
   private $conexion;
 	
-public function __construct(){
+function __construct(){
     $this->servidor = "localhost";
     $this->usuario ="root" ;
     $this->password = "";
@@ -21,7 +21,7 @@ public function __construct(){
 
   
   private function conectar(){
-    $this->conexion = mysql_connect($this->servidor,$this->usuario,$this->password) or DIE(mysql_error());
+    $this->conexion = ($this->servidor,$this->usuario,$this->password) or DIE(mysql_error());
     mysql_select_db($this->basedatos, $this->conexion);
   }
 	
