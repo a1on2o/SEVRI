@@ -1,6 +1,6 @@
 <?php
 
-class dtConnection{
+ dtConnection{
 
   private static $instancia = NULL;
 
@@ -39,7 +39,7 @@ public function __construct(){
   
 
 static public function getInstancia() {
-    if (self::$instancia == NULL) {
+    if (selfinstancia == NULL) {
       self::$instancia = new dtConnection();
     }
     return self::$instancia;
