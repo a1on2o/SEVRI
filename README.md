@@ -1,2 +1,0 @@
-# SEVRI
-# SEVRI
