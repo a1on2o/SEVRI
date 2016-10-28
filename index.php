@@ -6,7 +6,7 @@
 </head>
 <body>
 	
-	<a href="interfaz/IRiesgo/IIDentificarRiesgo.php">Identificar Riegos</a> <br>
+	<a href="interfaz/IRiesgo/IIDentificarRiesgo.php">Identificar Riegos</a> <br> <br>
 
 	<a href="PruebasUnitarias.php">PruebaUnitaria DataCategoria</a> <br>
 
